@@ -6,5 +6,9 @@ text = ("Lorem ipsum dolor sit amet consectetur adipiscing elit "
 # Примечание: для генерации текста можете воспользоваться
 # сайтом: https://ru.lipsum.com/
 
-res = text.split(" ")
-print(res)
+words = text.split(" ")
+num_long_words = 0
+for word in words:
+    if len(word) > 5:
+        num_long_words +=1
+print(num_long_words)
