@@ -10,9 +10,10 @@ print(distances_in_fut)
 
 
 # Вариант 2
-def meter_in_foot(meter):
-    return meter * 3.28
+# def meter_in_foot(meter):
+#     return meter * 3.28
 
 
-distance_foot = list(map(meter_in_foot, distances))
+# distance_foot = list(map(meter_in_foot, distances))
+distance_foot = list(map(lambda n: n * 3.28, distances))
 print(distance_foot)
