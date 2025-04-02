@@ -80,8 +80,8 @@ print(5 in a)
 print(a[0])
 print(a[5])
 print(a[6])
-#print(a[7])
-#print(a[-1])
+# print(a[7])
+# print(a[-1])
 # # a[3] = 6  # не будем делать
 # #
 
