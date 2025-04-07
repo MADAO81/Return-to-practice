@@ -1,9 +1,7 @@
 import json
 from car import Car, CarFieldError
 
-f = open(r"auto.json",
-         'r',
-         encoding='utf8')
+f = open(r"auto.json",'r',encoding='utf8')
 text = f.read()
 #print(text)
 data = json.loads(text)
